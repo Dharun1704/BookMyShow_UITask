@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFF"
+    android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:id="@+id/slider_image"
+                android:src="@drawable/image2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito"
+                android:text="Blade"
+                android:layout_marginStart="15dp"
+                android:layout_below="@id/slider_image"
+                android:textColor="@color/colorPrimary"
+                android:textSize="35sp"
+                android:id="@+id/detail_name1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito"
+                android:layout_below="@id/detail_name1"
+                android:layout_marginStart="15dp"
+                android:text="Runner 2049"
+                android:textSize="35sp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/detail_name2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito"
+                android:text="3D"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/slider_image"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="18dp"
+                android:textSize="18sp"
+                android:id="@+id/detail_3d"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito"
+                android:text="IMDB: 10.0"
+                android:textColor="#000"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/detail_3d"
+                android:textSize="18sp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/detail_imdb"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito"
+                android:text="Thriller, Mystery, Scifi"
+                android:textColor="#000"
+                android:layout_below="@id/detail_name2"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/detail_genre"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito"
+                android:text="Desc"
+                android:layout_below="@id/detail_genre"
+                android:textSize="18sp"
+                android:layout_marginTop="22dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/detail_desc"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bottomBar"
+                android:background="@drawable/bg2"
+                android:src="@drawable/ic_baseline_arrow_downward_24"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp" />
+
+        </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
